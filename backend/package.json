@@ -1,0 +1,35 @@
+{
+  "name": "mock-ecommerce-backend",
+  "version": "1.0.0",
+  "description": "Backend for a mock e-commerce shopping cart application",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "dev": "ts-node-dev src/server.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^3.1.0",
+    "mongoose": "^5.13.23",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "@types/jest": "^26.0.0",
+    "@types/node": "^14.18.63",
+    "jest": "^26.6.3",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.9.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
